@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 4rem;
+}
+
+.beer-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0px 0px 10px 5px rgb(222, 222, 222);
+    border-radius: 10px;
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.beer-image {
+    width: 100px;
+}
+
+.year {
+    margin-top: 20px;
+}

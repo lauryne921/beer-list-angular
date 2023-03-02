@@ -1,0 +1,9 @@
+<p>beer works!</p>
+
+<div class="list-container">
+    <div *ngFor="let beer of beers" class="beer-list">
+        <div class="name"><strong>{{ beer.name }}</strong></div>
+        <img [src]="beer.image_url" class="beer-image">
+        <div class="year">Année : {{ beer.first_brewed }}</div>
+    </div>
+</div>
