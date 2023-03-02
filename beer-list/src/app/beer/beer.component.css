@@ -1,9 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+header {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    top: 0;
+    position: absolute;
+    width: 98%;
+    padding: 20px 0 20px 30px;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+}
+
+.get-btn {
+    border: none;
+    margin-left: 50px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px;
+}
+.get-btn:hover {
+    border: none;
+    margin-left: 50px;
+    background-color: rgb(71, 125, 139);
+    color: white;
+}
+
 .list-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .beer-list {

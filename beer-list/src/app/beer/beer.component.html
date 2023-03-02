@@ -1,4 +1,7 @@
-<p>beer works!</p>
+<header>
+    <h1>Beer List</h1>
+    <button (click)="getBeers()" class="get-btn">Actualiser</button>
+  </header>
 
 <div class="list-container">
     <div *ngFor="let beer of beers" class="beer-list">

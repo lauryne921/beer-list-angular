@@ -12,8 +12,11 @@ export class BeerComponent implements OnInit {
   public title: string = "Angular Beer List";
   beers:any; 
   constructor(private beerData:BeerDataService) {
-    this.beerData.beers().subscribe((data)=>{
-      console.warn("data",data);
+    this.getBeers();
+  }
+
+  getBeers() {
+      this.beerData.beers().subscribe((data)=>{
       this.beers=data;
     })
   }
